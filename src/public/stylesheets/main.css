@@ -1,0 +1,61 @@
+/* body style */
+body {
+  background-image: url("background-image.jpg"); /* set your background image */
+  background-size: cover;
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* container style */
+.container {
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 00px;
+  margin-top: 80px;
+
+}
+
+/* heading style */
+h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  color: gray;
+}
+
+/* form label style */
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* form input style */
+input[type="text"],
+input[type="password"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 1px;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+/* submit button style */
+input[type="submit"] {
+  background-color: #fff;
+  color: #f2d602; /* yellow color */
+  border: 2px solid #f2d602; /* yellow color */
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+/* submit button hover style */
+input[type="submit"]:hover {
+  background-color: #f2d602; /* yellow color */
+  color: #fff;
+}
